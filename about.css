@@ -1,0 +1,44 @@
+*{
+    margin-top: 0.5%;
+    overflow-y: none;
+    scroll-behavior: smooth;
+}
+
+nav ul{
+    text-align: right;
+    margin: 0 auto;
+}
+  
+body{
+    background-color: /* dark cool gray */ #ffffff;
+    scroll-behavior: smooth;
+}
+
+.aboutSection{
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 1%;
+    font-weight: bolder;
+}
+
+.aboutSection h1{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+    font-weight: bolder;
+    font-size:60px;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.aboutsectionTextTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.texxtAbout{
+    width: 50%;
+    text-align: left;
+    margin-top: 10%;
+}
