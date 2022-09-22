@@ -1,0 +1,90 @@
+*{
+    margin-top: 0.5%;
+    overflow-y: none;
+    scroll-behavior: smooth;
+}
+
+nav ul{
+    text-align: right;
+    margin: 0 auto;
+}
+  
+body{
+    background-color: /* dark cool gray */ #ffffff;
+    scroll-behavior: smooth;
+}
+
+.formStuff{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.formStuff h1{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+    font-weight: bolder;
+    font-size:50px;
+    letter-spacing: 5px;
+    color: black;
+    text-align: left;
+    margin-left: 6%;
+}
+
+.formStuff h6{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    color: black;
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.formStuff form{
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    position: absolute;
+    left: 25%;
+}
+
+form input, textarea{
+    margin-top: 3%;
+    padding: 6px;
+}
+
+form button{
+    margin-top: 5%;
+    padding: 6px;
+    background-color: /* dark cool gray */ #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Assistant', sans-serif;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    border-radius: 0;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
